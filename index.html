@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Display Flex</title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -48,15 +49,23 @@
 		</div>
 	</div> 	
 </header>
-<section class="grey-bg">
-	<div class="container">
-		<img src="img/image.jpg"alt="image">
-    </div>
+  <section class="grey-bg">
+  <div class="container">
+		<div class="image-wraper p-relative">
+			<img class="image-block" src="img/image.jpg"alt="image">
+			<ul class="text-list p-absolute">
+				<li> thiongs aren'talways</li>
+				<li>#000000</li>
+				<li>#000000</li>
+				<li>#000000</li>
+			</ul>
+			<img  class="p-absolute image-logo "  src="img/logo-image.jpg"  alt="image">
+        </div>
 </section>
 <section  class="blue-bg">
 	  <div class="container">
 	  	   <h2  class="section-title">VIDEOS| view all videos </h2>
-           <div class="vodep-wraper d-flex">
+           <div class="video-wraper d-flex">
            	  <div class="video"><iframe  src="https://www.youtube.com/embed/x2K6ZP7iUYA?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            	   </div>
            	  <div class="video"> <iframe  src="https://www.youtube.com/embed/_CR0LVaGIQI?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
@@ -105,5 +114,8 @@
          </div>
        </div>
     </seaction>
+    
+         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/svg-with-js.css"></script>   
+
 </body>
 </html>
